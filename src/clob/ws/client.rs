@@ -166,7 +166,7 @@ impl<S: State> Client<S> {
         }))
     }
 
-    /// Subscribe to last_trade_price updates for specific assets.
+    /// Subscribe to `last_trade_price` updates for specific assets.
     pub fn subscribe_last_trade_price(
         &self,
         asset_ids: Vec<String>,
